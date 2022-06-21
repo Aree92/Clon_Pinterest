@@ -1,0 +1,53 @@
+.flagstep1 { 
+
+    height: 1000px;
+    width: 1000px;
+    border: 2px solid #012868;
+    background-color: #012868;
+    /* Se necesita para usar flex box  */
+    display: flex;
+    /* Mover elementos en el eje x o horizontal  */
+    /* Mover elementos en el eje y o vertical  */
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+
+}
+
+.flagstep1_left{ 
+
+    height: 1000px;
+    width: 200px;
+    border: 5px solid white;
+    background-color: white;
+    /* Se necesita para usar flex box  */
+    display: flex;
+    /* Mover elementos en el eje x o horizontal  */
+    justify-content: space-around;
+    /* Mover elementos en el eje y o vertical  */
+    align-items: left;
+            /* Me ayuda a acomodar mis elementos en columna */
+
+    display: inline-block;
+    flex-direction: column;
+
+}
+
+.flagstep1_rihght{ 
+
+    height:1000px;
+    width: 800px;
+    border: 2px solid white;
+    background-color: white;
+    /* Se necesita para usar flex box  */
+    display: flex;
+    /* Mover elementos en el eje x o horizontal  */
+    justify-content: right;
+        /* Mover elementos en el eje y o vertical  */
+
+    align-items: right;
+            /* Me ayuda a acomodar mis elementos en columna */
+
+    flex-direction: right;
+
+}
